@@ -32,16 +32,16 @@
 const input = require("readline-sync");
 console.log("Seja bem vinde! Vamos verificar sua situação academica");
 
-const nota1 = parseInt(input.question("Qual 1 nota? "));
-const nota2 = parseInt(input.question("Qual 2 nota? "));
-const nota3 = parseInt(input.question("Qual 3 nota? "));
+const nota1 = parseInt(input.question("Qual a primeira nota? "));
+const nota2 = parseInt(input.question("Qual a segunda nota? "));
+const nota3 = parseInt(input.question("Qual a terceira nota? "));
 
 const media = (nota1 + nota2 + nota3)/3
 
 if (media >= 7) {
-    console.log("Aprovado.")
+    console.log("Parabéns!  você foi aprovado.")
 } else if (media >= 3 && media < 7) {
-    console.log("Recuperação.")
+    console.log("Você está de recuperação.")
 } else {
-    console.log("Reprovado.")
+    console.log("Infelizmente você foi reprovado.")
 }
