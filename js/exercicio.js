@@ -21,9 +21,14 @@ if (media >= 7) {
 }
 
 
-//Contador e inversor de letras
+//Contador de letras
 
 var frase = "A turma do backend do senac, é massa!".split(" ").join("");
 
 console.log("A frase possui " + frase.length + " letras");
-console.log("A frase invertida fica: " + frase.split("").reverse().join(""));
+
+
+//Inversor de frase
+
+var fraseInv = "A turma do backend do senac, é massa!"
+console.log("A frase invertida fica: " + fraseInv.split("").reverse().join(""));
