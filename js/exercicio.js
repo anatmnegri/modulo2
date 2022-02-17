@@ -23,7 +23,7 @@ if (media >= 7) {
 
 //Contador e inversor de letras
 
-var frase = "A turma do backend do senac, é massa!";
+var frase = "A turma do backend do senac, é massa!".split(" ").join("");
 
-console.log("A frase possui " + frase.length + " unidades de código de comprimento");
+console.log("A frase possui " + frase.length + " letras");
 console.log("A frase invertida fica: " + frase.split("").reverse().join(""));
